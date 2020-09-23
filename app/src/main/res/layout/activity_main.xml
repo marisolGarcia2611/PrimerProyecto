@@ -14,7 +14,7 @@
         android1:text="Marisol"
         android1:textSize="30dp"
         android1:textAlignment="center"
-        android1:background="#FFFFF"
+        android1:background="@color/colorPrimary"
         android1:layout_centerInParent="true"
         >
     </TextView>
