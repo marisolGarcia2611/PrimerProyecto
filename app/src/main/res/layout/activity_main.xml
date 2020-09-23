@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android1="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:layout_width="match_parent"
+    android1:layout_height="match_parent"
+    android1:paddingLeft="30dp"
+    android1:paddingRight="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:text="Marisol"
+        android1:textSize="30dp"
+        android1:textAlignment="center"
+        android1:background="#009688"
+        android1:layout_centerInParent="true"
+        >
+    </TextView>
+
+</RelativeLayout>
