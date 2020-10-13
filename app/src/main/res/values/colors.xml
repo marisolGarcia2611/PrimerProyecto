@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="boton">#423E3A</color>
+    <color name="letras">#F0F3F2</color>
+    <color name="caratula">#161717</color>
+    <color name="boton2">#7D8178</color>
+    <color name="boton3">#FF7700</color>
 </resources>
