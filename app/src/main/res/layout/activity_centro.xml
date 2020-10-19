@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_centro"
+    android:background="@drawable/colors"
+    >
+<ImageView
+    android:layout_width="230dp"
+    android:layout_height="270dp"
+    android:background="@drawable/docc"
+    android:layout_margin="30dp"
+    android:layout_gravity="top|right"
+
+
+    ></ImageView>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical|left"
+        android:id="@+id/btt1"
+        android:layout_margin="30dp"
+        android:text="calcula"
+        android:background="@color/colorAccent"
+        android:textColor="@color/letras"
+        android:padding="10dp"
+        android:onClick="accion1"
+
+
+        >
+
+    </Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:id="@+id/btt2"
+        android:text="accion2"
+        android:background="@color/pinklg"
+        android:textColor="@color/letras"
+
+
+       >
+
+
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical|right"
+        android:id="@+id/btt3"
+        android:layout_margin="30dp"
+        android:background="@color/greenlg"
+        android:textColor="@color/letras"
+        android:text="accion3"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/btt4"
+        android:layout_margin="30dp"
+        android:text="compartir"
+        android:background="@color/bluelg"
+        android:textColor="@color/letras"
+        >
+
+    </Button>
+
+
+</FrameLayout>

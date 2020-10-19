@@ -6,6 +6,11 @@
     <color name="boton">#423E3A</color>
     <color name="letras">#F0F3F2</color>
     <color name="caratula">#161717</color>
-    <color name="boton2">#7D8178</color>
+    <color name="boton2">#A6A8A3</color>
     <color name="boton3">#FF7700</color>
+    <color name="bluelg">#FF7A8EFD</color>
+    <color name="whitelg">#E3E5EF</color>
+    <color name="greenlg">#A4D56B</color>
+    <color name="pinklg">#D3839E</color>
+
 </resources>
