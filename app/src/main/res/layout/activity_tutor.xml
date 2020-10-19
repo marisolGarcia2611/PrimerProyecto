@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_tutor"
+    android:background="@drawable/escu">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center|top"
+        android:background="@drawable/pe"
+        android:layout_marginTop="110dp"
+    />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="#83FFC107"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="Tutor experto en áreas multiples,doctordo en psicología"
+        android:layout_gravity="center"
+        android:textColor="@color/caratula"
+        android:textSize="15dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/btt4"
+        android:layout_marginBottom="220dp"
+        android:text="contactar"
+        android:background="@color/bluelg"
+        android:textColor="@color/letras"
+        android:onClick="impli"
+        >
+
+    </Button>
+
+</FrameLayout>

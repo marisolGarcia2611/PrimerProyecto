@@ -1,11 +1,13 @@
 package com.marisolGarcia2611.primerproyecto;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.UriMatcher;
+import android.net.Uri;
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
-import android.widget.TextView;
-import java.awt.font.TextAttribute;
+
 
 public class activity_centro extends AppCompatActivity  {
 
@@ -14,6 +16,9 @@ public class activity_centro extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_centro);
         findViewById(R.id.btt1);
+        findViewById(R.id.btt2);
+
+
     }
 
     public void accion1(View view)
@@ -21,4 +26,12 @@ public class activity_centro extends AppCompatActivity  {
         Intent ir=new Intent(this, MainActivity.class);
         startActivity(ir);
     }
+    public void accion2(View view)
+    {
+        Intent go=new Intent(this, activity_tutor.class);
+        startActivity(go);
+    }
+
+
+
 }

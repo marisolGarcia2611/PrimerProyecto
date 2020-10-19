@@ -8,9 +8,9 @@
         android:label="Duung"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
-        <activity android:name=".activity_centro"></activity>
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_tutor"></activity>
+        <activity android:name=".activity_centro" />
         <activity android:name=".activity_splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

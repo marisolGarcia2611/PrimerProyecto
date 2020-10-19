@@ -40,13 +40,11 @@
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:id="@+id/btt2"
-        android:text="accion2"
+        android:text="Tutores"
         android:background="@color/pinklg"
         android:textColor="@color/letras"
-
-
+        android:onClick="accion2"
        >
-
 
     </Button>
 
@@ -62,18 +60,7 @@
         >
 
     </Button>
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="30dp"
-        android:layout_gravity="center|bottom"
-        android:id="@+id/btt4"
-        android:layout_margin="30dp"
-        android:text="compartir"
-        android:background="@color/bluelg"
-        android:textColor="@color/letras"
-        >
 
-    </Button>
 
 
 </FrameLayout>
