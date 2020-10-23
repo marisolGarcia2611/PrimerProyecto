@@ -9,10 +9,11 @@
     android:background="@drawable/colors"
     >
 <ImageView
-    android:layout_width="230dp"
+    android:layout_width="260dp"
     android:layout_height="270dp"
     android:background="@drawable/docc"
-    android:layout_margin="30dp"
+    android:layout_marginRight="115dp"
+    android:layout_marginTop="0dp"
     android:layout_gravity="top|right"
 
 
@@ -22,9 +23,10 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="80dp"
-        android:layout_gravity="center_vertical|left"
+        android:layout_gravity="bottom|left"
         android:id="@+id/btt1"
-        android:layout_margin="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
         android:text="calcula"
         android:background="@color/colorAccent"
         android:textColor="@color/letras"
@@ -38,7 +40,8 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="80dp"
-        android:layout_gravity="center"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
         android:id="@+id/btt2"
         android:text="Tutores"
         android:background="@color/pinklg"
@@ -51,12 +54,14 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="80dp"
-        android:layout_gravity="center_vertical|right"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dp"
         android:id="@+id/btt3"
-        android:layout_margin="30dp"
+        android:layout_marginRight="30dp"
         android:background="@color/greenlg"
         android:textColor="@color/letras"
-        android:text="accion3"
+        android:onClick="accion3"
+        android:text="Perfil"
         >
 
     </Button>

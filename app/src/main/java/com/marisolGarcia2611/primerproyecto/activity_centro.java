@@ -17,6 +17,7 @@ public class activity_centro extends AppCompatActivity  {
         setContentView(R.layout.activity_centro);
         findViewById(R.id.btt1);
         findViewById(R.id.btt2);
+        findViewById(R.id.btt3);
 
 
     }
@@ -31,7 +32,11 @@ public class activity_centro extends AppCompatActivity  {
         Intent go=new Intent(this, activity_tutor.class);
         startActivity(go);
     }
-
+    public void accion3(View view)
+    {
+        Intent va=new Intent(this, activity_entrarPerfil.class);
+        startActivity(va);
+    }
 
 
 }
