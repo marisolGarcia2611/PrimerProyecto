@@ -232,7 +232,6 @@
                 android:text="3"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
                 android:id="@+id/num3">
             </Button>
             <Button
@@ -275,7 +274,6 @@
                 android:text="."
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
                 android:id="@+id/punto">
             </Button>
 
@@ -287,7 +285,6 @@
                 android:text="="
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
                 android:id="@+id/btn19">
             </Button>
         </LinearLayout>
