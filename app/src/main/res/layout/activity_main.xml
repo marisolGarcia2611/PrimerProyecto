@@ -28,7 +28,7 @@
                 android:textSize="70sp"
                 android:background="#EFF1F1"
                 android:gravity="right|bottom"
-
+                android:onClick="clear"
                 android:id="@+id/lbl1">
             </TextView>
         </LinearLayout>
@@ -47,7 +47,7 @@
                 android:text="AC"
                 android:textSize="50sp"
                 android:textColor="@color/letras"
-
+                android:onClick="clear"
                 android:id="@+id/btn1"
                 >
 
@@ -72,7 +72,7 @@
                 android:text="%"
                 android:textSize="50sp"
                 android:textColor="@color/letras"
-
+                android:onClick="porcentaje"
                 android:id="@+id/btn3"
                 >
             </Button>
@@ -84,7 +84,7 @@
                 android:text="÷"
                 android:textSize="50dp"
                 android:textColor="@color/letras"
-
+                android:onClick="dividir"
                 android:id="@+id/btn4"
                 >
             </Button>
@@ -103,7 +103,7 @@
                 android:text="7"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num7">
 
             </Button>
@@ -115,7 +115,7 @@
                 android:text="8"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num8">
             </Button>
             <Button
@@ -126,7 +126,7 @@
                 android:text="9"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num9">
             </Button>
             <Button
@@ -137,7 +137,7 @@
                 android:text="x"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="multiplicar"
                 android:id="@+id/btn8">
             </Button>
         </LinearLayout>
@@ -156,7 +156,7 @@
                 android:text="4"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num4"
                 >
 
@@ -169,7 +169,7 @@
                 android:text="5"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num5">
             </Button>
             <Button
@@ -180,7 +180,7 @@
                 android:text="6"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num6">
             </Button>
             <Button
@@ -191,7 +191,7 @@
                 android:text="-"
                 android:textSize="60dp"
                 android:textColor="@color/letras"
-
+                android:onClick="restar"
                 android:id="@+id/btn12">
             </Button>
         </LinearLayout>
@@ -209,7 +209,7 @@
                 android:text="1"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num1">
 
             </Button>
@@ -221,7 +221,7 @@
                 android:text="2"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="concatenar"
                 android:id="@+id/num2">
             </Button>
             <Button
@@ -232,6 +232,7 @@
                 android:text="3"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
+                android:onClick="concatenar"
                 android:id="@+id/num3">
             </Button>
             <Button
@@ -242,7 +243,7 @@
                 android:text="+"
                 android:textSize="40dp"
                 android:textColor="@color/letras"
-
+                android:onClick="sumar"
                 android:id="@+id/btn16">
             </Button>
         </LinearLayout>
@@ -262,7 +263,7 @@
                 android:textSize="40dp"
                 android:textColor="@color/letras"
                 android:gravity="center"
-
+                android:onClick="concatenar"
                 android:id="@+id/num0">
 
             </Button>
@@ -274,6 +275,7 @@
                 android:text="."
                 android:textSize="40dp"
                 android:textColor="@color/letras"
+                android:onClick="concatenar"
                 android:id="@+id/punto">
             </Button>
 
@@ -285,6 +287,7 @@
                 android:text="="
                 android:textSize="40dp"
                 android:textColor="@color/letras"
+                android:onClick="Igual"
                 android:id="@+id/btn19">
             </Button>
         </LinearLayout>
